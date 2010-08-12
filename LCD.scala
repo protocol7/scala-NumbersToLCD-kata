@@ -19,6 +19,7 @@ object LCD {
 	// hack to convert int into array of digits
 	val digits = num.toString.toCharArray.map(_.toString.toInt)
 	
+	// butt ugly imperative code
 	var s = ""
 	var i = 0
 	while (i < 5) {
