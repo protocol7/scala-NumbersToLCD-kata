@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm bin/*
+scalac -d bin *.scala
+scala -cp bin run LCDSpec
